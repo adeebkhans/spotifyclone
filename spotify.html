@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+    <div class="left">
+        <div class="home bg-grey m-1 p-1 rounded">
+            <img width="96px" class="invert m-1" src="/img/logo.svg" alt="">
+            <div class="close"><img class="invert" src="img/close.svg" alt=""></div>
+            <ul>
+                <li> <img class="invert m-1" width="20px" src="img/home.svg" alt="">Home</li>
+                <li> <img class="invert m-1" width="20px" src="img/search.svg" alt="">Search</li>
+            </ul>
+        </div>
+        <div class="library bg-grey m-1 p-1 rounded">
+            <h3> <img width="25px" class="invert" src="img/playlist.svg" alt=""> Your Library</h1>
+                <div class="songList">
+                    <ul>
+                        <!-- <li><img class="invert" width="34" src="img/music.svg" alt="">
+                            <div class="info">
+                                <div> Decimate - Jeremy Blake - Copy.mp3</div>
+                                <div>Harry</div>
+                            </div>
+                            <div class="playnow">
+                                <span>Play Now</span>
+                                <img class="invert" src="img/play.svg" alt="">
+                            </div> </li> -->
+                    </ul>
+
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/">Legal</a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/">Privacy Center</a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/">Privacy Policy</a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/">Cookies</a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3">About Ads</a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/">Accessibility</a></div>
+                </div>
+        </div>
+    </div>
+    <div class="right bg-grey m-1">
+
+        <div class="header">
+            <div class="arrows">
+                <div class="hamburger">
+                    <img class="invert" src="img/hamburger.svg" alt="">
+                </div>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                        stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                        stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </div>
+            <div class="buttons">
+                <button>Sign up</button>
+                <button>Log in</button>
+            </div>
+        </div>
+
+        <div class="spotifyPlaylist">
+            <h1>Spotify Playlists</h1>
+            <div class="cardContainer">
+
+                <!-- <div data-folder="Melody" class="card">
+                    <img src="/img/cover.jpg" alt="">
+                    <div class="play">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h2>Night Playlist</h2>
+                    <p>Songs for you</p>
+                </div> -->
+
+
+                <!-- <div data-folder="Energy" class="card">
+                    <img src="/img/cover.jpg" alt="">
+                    <div class="play">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" fill="#000" stroke-width="1.5"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <h2>Night Playlist</h2>
+                    <p>Songs for you</p>
+                </div> -->
+
+
+
+
+
+            </div>
+
+            <div class="playbar">
+                <div class="abovebar">
+                    <div class="songinfo">Decimate - Jeremy Blake - Copy.mp3</div>
+                    <div class="songbuttons">
+                        <img  width="35" id="previous" src="img/prevsong.svg" alt="">
+                        <img  width="35" id="play" src="img/play.svg" alt="">
+                        <img  width="35" id="next" src="img/nextsong.svg" alt="">
+                    </div>
+                    <div class="timevol">
+                        <div class="songtime">       </div>
+                        <div class="volume">
+                            <img class="invert" width="25" src="img/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+
+</html>
